@@ -20,13 +20,26 @@
         background-position: top center;
         background-repeat: no-repeat;
       }
-      .masthead .lead { font-family: 'Roboto', sans-serif; }
+      .lead { font-family: 'Roboto', sans-serif; }
       #phrases {
         font-family: 'Ubuntu mono', monospace;
         padding-top: 1.5rem;
       }
       #main {
-        background-color: #D2D4D8;
+        color: #E1E2E3;
+      }
+      #main h1, h2, h3 {
+        font-family: 'Ubuntu mono', monospace;
+        text-align: center;
+      }
+      #main .card-header {
+        color: #676A6C;
+        font-family: 'Ubuntu mono', monospace;
+      }
+      .card-header svg {
+        height: 1em;
+        margin-top: -4px;
+        width: 1em;
       }
       #footer {
         color: #C6CBD0;
@@ -94,7 +107,50 @@
     </header>
 
     <section id="main" class="p-3">
-      <p class="lead d-sm-none">I help businesses grow by transforming their IT staff into modern, Agile professionals.</p>
+      <p class="lead d-sm-none text-center">I help businesses grow by transforming their IT staff into modern, Agile professionals.</p>
+
+      <div class="container mt-3">
+        <div class="row">
+          <div class="card-deck">
+            <div class="card mb-3">
+              <div class="card-header" style="font-size:1.4rem;padding:0.8rem 1.2rem;">
+                <svg class="bi bi-graph-down" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0h1v16H0V0zm1 15h15v1H1v-1z"/>
+                  <path fill-rule="evenodd" d="M14.39 9.041l-4.349-5.436L7 6.646 3.354 3l-.708.707L7 8.061l2.959-2.959 3.65 4.564.781-.625z"/>
+                  <path fill-rule="evenodd" d="M10 9.854a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 0-1 0v3.5h-3.5a.5.5 0 0 0-.5.5z"/>
+                </svg>
+                Have you seen this?
+              </div>
+              <div class="card-body bg-dark">
+                <p class="card-text">The most common way of creating and deploying software often leads to cost overruns, usability issues, unmitigated risks, and overall fragility.</p>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <div class="card-header" style="font-size:1.4rem;padding:0.8rem 1.2rem;">
+                <svg class="bi bi-people-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                </svg>
+                We can do better.
+              </div>
+              <div class="card-body bg-dark">
+                <p class="card-text">I want IT teams to rise above that. I want the businesses that rely on them to be more successful, more flexible, more resilient, and ultimately, more profitable.</p>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <div class="card-header" style="font-size:1.6rem;padding:0.6rem 1.2rem;">
+                <svg class="bi bi-check2-square" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                  <path fill-rule="evenodd" d="M1.5 13A1.5 1.5 0 0 0 3 14.5h10a1.5 1.5 0 0 0 1.5-1.5V8a.5.5 0 0 0-1 0v5a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V3a.5.5 0 0 1 .5-.5h8a.5.5 0 0 0 0-1H3A1.5 1.5 0 0 0 1.5 3v10z"/>
+                </svg>
+                Easily.
+              </div>
+              <div class="card-body bg-dark">
+                <p class="card-text">It turns out that all of this is easily within reach of even the smallest groups of developers, engineers, and support staff, including teams of just 1!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer id="footer">
@@ -123,14 +179,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script type="text/javascript">
-      $('#phrases').slick({
-        arrows: false,
-        autoplay: true,
-        dots: false,
-        draggable: false,
-        fade: true,
-        infinite: true
-      })
+      $('#phrases').slick({ arrows: false, autoplay: true, dots: false, draggable: false, fade: true, infinite: true })
     </script>
   </body>
 </html>
