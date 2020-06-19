@@ -8,84 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
-    <style>
-      a.nav-link, #footer a {
-        color: #C6CBD0;
-      }
-      .masthead {
-        background-image: url('media/masthead.jpg');
-        background-position: top left;
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-      }
-      .lead {
-        font-family: 'Fira Sans', sans-serif;
-        width: 240px;
-      }
-      #phrases {
-        font-family: 'Permanent Marker', cursive;
-        padding-top: 1.2rem;
-      }
-      .body-text {
-        color: #E1E2E3;
-      }
-      .body-text h1, h2, h3 {
-        font-family: 'Permanent Marker', cursive;
-        text-align: center;
-      }
-      .card-header {
-        color: #676A6C;
-        font-family: 'Permanent Marker', cursive;
-        font-size: 1.4rem;
-        padding: 0.8rem 1.2rem;
-      }
-      .card-header svg {
-        height: 1em;
-        margin-top: -4px;
-        width: 1em;
-      }
-      .headshot {
-        margin: auto;
-        width: 167px;
-      }
-      .blockquote {
-        background-image: url('media/quotes.svg');
-        background-position: -40px 0;
-        background-repeat: no-repeat;
-        font-size: 1rem !important;
-        font-style: italic;
-        min-height: 160px;
-        padding-left: 1rem;
-      }
-      .no-border {
-        border: none !important;
-      }
-      #footer {
-        color: #C6CBD0;
-        font-size: 85%;
-      }
-      @media (max-width: 360px) {
-        #middle-name { display: none; }
-        #phrases div.h1 { font-size: 150% !important; }
-      }
-      @media (max-width: 500px) {
-        #phrases div.h1 { font-size: 175% !important; }
-        .lead { font-size: smaller; width: 160px; }
-      }
-      @media (max-width: 768px) {
-        .masthead { background-size: 150% auto; min-height: calc(100vw * 0.5); }
-        #footer div.col-sm { padding-top: 1rem !important; }
-      }
-      @media (min-width: 768px) {
-        #phrases { padding-top: 3rem; }
-      }
-      @media (min-width: 1024px) {
-        .masthead { min-height: calc(100vw * 0.33); }
-        #footer div.col-sm { padding-top: 1.5rem !important; }
-        .footer-middle { text-align: center; }
-        .footer-right { text-align: right; }
-      }
-    </style>
+    <link rel="stylesheet" href="media/custom.css"/>
     <title>David John Passarelli - Real-World Agility for IT Teams</title>
   </head>
   <body class="bg-dark">
@@ -115,7 +38,7 @@
 
     <header class="masthead">
       <div class="container h-100">
-        <div class="row h-100">
+        <div class="row">
           <div class="col-12">
             <div id="phrases">
               <div class="h1">Mitigate risk</div>
@@ -127,7 +50,7 @@
               <div class="h1">Build trust</div>
               <div class="h1">Be agile</div>
             </div>
-            <p class="lead">Dramatically improve IT development and oper- ations by implementing real-world agility.</p>
+            <p class="lead">Dramatically improve IT development and operations by implementing real-world agility.</p>
           </div>
         </div>
       </div>
@@ -135,7 +58,7 @@
 
     <section class="body-text p-3">
       <div class="container">
-        <div class="row">
+        <div class="row pt-3">
           <div class="col-sm-6">
             <h3>I help small IT teams learn and practice Agile methodologies.</h3>
           </div>
@@ -152,7 +75,7 @@
             </p>
           </div>
         </div>
-        <div class="row">
+        <div class="row pt-3">
           <div class="col-sm-6">
             <h3>I teach by example.</h3>
           </div>
@@ -224,92 +147,6 @@
       <a name="contact"><h1>Contact</h1></a>
     </section>
 
-    <!--section class="body-text px-3 pb-5">
-      <h1>Ability</h1>
-
-      <div class="container my-3">
-        <div class="row">
-          <div class="card-deck">
-            <div class="card my-3">
-              <div class="card-header">
-                <svg class="bi bi-tools" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M0 1l1-1 3.081 2.2a1 1 0 0 1 .419.815v.07a1 1 0 0 0 .293.708L10.5 9.5l.914-.305a1 1 0 0 1 1.023.242l3.356 3.356a1 1 0 0 1 0 1.414l-1.586 1.586a1 1 0 0 1-1.414 0l-3.356-3.356a1 1 0 0 1-.242-1.023L9.5 10.5 3.793 4.793a1 1 0 0 0-.707-.293h-.071a1 1 0 0 1-.814-.419L0 1zm11.354 9.646a.5.5 0 0 0-.708.708l3 3a.5.5 0 0 0 .708-.708l-3-3z"/>
-                  <path fill-rule="evenodd" d="M15.898 2.223a3.003 3.003 0 0 1-3.679 3.674L5.878 12.15a3 3 0 1 1-2.027-2.027l6.252-6.341A3 3 0 0 1 13.778.1l-2.142 2.142L12 4l1.757.364 2.141-2.141zm-13.37 9.019L3.001 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z"/>
-                </svg>
-                Process Improvement
-              </div>
-              <div class="card-body bg-dark">
-                <p class="card-text">
-                  Start with the basics. Learn about the core concepts of extreme
-                  programming (XP), and see how they dramatically improve the
-                  focus and productivity of the team.
-                </p>
-              </div>
-            </div>
-            <div class="card my-3">
-              <div class="card-header">
-                <svg class="bi bi-cloud-upload" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4.887 6.2l-.964-.165A2.5 2.5 0 1 0 3.5 11H6v1H3.5a3.5 3.5 0 1 1 .59-6.95 5.002 5.002 0 1 1 9.804 1.98A2.501 2.501 0 0 1 13.5 12H10v-1h3.5a1.5 1.5 0 0 0 .237-2.981L12.7 7.854l.216-1.028a4 4 0 1 0-7.843-1.587l-.185.96z"/>
-                  <path fill-rule="evenodd" d="M5 8.854a.5.5 0 0 0 .707 0L8 6.56l2.293 2.293A.5.5 0 1 0 11 8.146L8.354 5.5a.5.5 0 0 0-.708 0L5 8.146a.5.5 0 0 0 0 .708z"/>
-                  <path fill-rule="evenodd" d="M8 6a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0v-8A.5.5 0 0 1 8 6z"/>
-                </svg>
-                Continuous Delivery
-              </div>
-              <div class="card-body bg-dark">
-                <p class="card-text">
-                  Already familiar with Agile? Are you ready to take it to the
-                  next level? Learn advanced techniques and unlock the full
-                  potential of DevOps in your organization.
-                </p>
-              </div>
-            </div>
-            <div class="card my-3">
-              <div class="card-header">
-                <svg class="bi bi-terminal" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M14 2H2a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zM2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2z"/>
-                  <path fill-rule="evenodd" d="M6 9a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3A.5.5 0 0 1 6 9zM3.146 4.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 1 1-.708-.708L4.793 6.5 3.146 4.854a.5.5 0 0 1 0-.708z"/>
-                </svg>
-                Custom Development
-              </div>
-              <div class="card-body bg-dark">
-                <p class="card-text">
-                  Need help building something? Need help rescuing something
-                  already built? Let's talk! I have hands-on experience with JS,
-                  REST, ETL, CLI, NPM, SQL, XML, PS, and more.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 px-5 pt-3">
-            <p>
-              I request clients to manage our engagement using the same Agile
-              methodologies that I teach. This means regular, brief check-ins,
-              Kanban-style work management, and periodic retrospectives.
-            </p>
-            <p>
-              I use a combination of live webinars, printed and online
-              documentation, and 1-on-1 conversations to relay information.
-              This allows me to work remotely, while still maintaining good
-              progress and team interaction.
-            </p>
-          </div>
-          <div class="col-sm-6 px-5 pt-3">
-            <p>
-              <strong>I normally advocate having at least one in-person meeting
-              or workshop per engagement. This may be adjusted due to the
-              current situation involving COVID-19. My foremost concern is the
-              health and safety of my clients.</strong>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section-->
-
     <footer id="footer">
       <div class="container-fluid">
         <div class="row">
@@ -326,7 +163,7 @@
           <div class="col-sm px-4 footer-right">
             Working in partnership with
             <br />
-            <img src="media/ccg-logo.svg" title="Camelot Consulting Group, Inc." style="height:100px;margin:-25px 5px;"/>
+            <img src="media/ccg-logo.svg" id="ccg-logo" title="Camelot Consulting Group, Inc."/>
           </div>
         </div>
       </div>
