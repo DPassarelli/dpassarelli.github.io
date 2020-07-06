@@ -4,7 +4,7 @@ a.nav-link, #footer a {
 
 .masthead {
   background-image: url('masthead.jpg');
-  background-position: -10px -50px;
+  background-position: 0 -50px;
   background-repeat: no-repeat;
   background-size: 100% auto;
   min-height: calc(100vw * 0.33);
@@ -13,13 +13,13 @@ a.nav-link, #footer a {
 
 .lead {
   font-family: 'Fira Sans', sans-serif;
-  padding-left: 40px;
-  width: calc(100vw * 0.28);
+  padding-left: 30px;
+  width: calc(100vw * 0.33);
 }
 
 #phrases {
   font-family: 'Permanent Marker', cursive;
-  padding-left: 40px;
+  padding-left: 30px;
   padding-top: 20px;
 }
 
@@ -79,11 +79,18 @@ a.nav-link, #footer a {
   #phrases div.h1 { font-size: 150% !important; }
 }
 
+@media (max-width: 600px) {
+  .masthead { background-position: -20px 0px !important; }
+  #phrases { padding-left: 20px; padding-top: 10px; }
+  .lead { font-size: calc(100vw * 0.033) !important; padding-left: 20px; padding-bottom: 1rem ; }
+}
+
 @media (max-width: 768px) {
-  .masthead { background-position: -60px -50px; background-size: 125% auto; min-height: calc(100vw * 0.4); }
+  #phrases div.h1 { font-size: calc(100vw * 0.05) !important; }
 }
 
 @media (max-width: 800px) {
+  .masthead { background-position: -40px -50px; background-size: 125% auto; min-height: calc(100vw * 0.45); }
   #footer { font-size: 75%; }
   #footer div.col-sm { padding-top: 1rem !important; }
   #ccg-logo { height: 80px; margin:-20px 5px; }
@@ -93,9 +100,4 @@ a.nav-link, #footer a {
   #footer div.col-sm { padding-top: 1.5rem !important; }
   .footer-middle { text-align: center; }
   .footer-right { text-align: right; }
-}
-
-@media (max-width: 1024px) {
-  #phrases div.h1 { font-size: 175% !important; }
-  .lead { font-size: 15px !important; }
 }
