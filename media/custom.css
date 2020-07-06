@@ -4,19 +4,23 @@ a.nav-link, #footer a {
 
 .masthead {
   background-image: url('masthead.jpg');
-  background-position: top left;
+  background-position: -10px -50px;
   background-repeat: no-repeat;
   background-size: 100% auto;
+  min-height: calc(100vw * 0.33);
+  padding-top: calc(100vw * 0.01);
 }
 
 .lead {
   font-family: 'Fira Sans', sans-serif;
-  width: 225px;
+  padding-left: 40px;
+  width: calc(100vw * 0.28);
 }
 
 #phrases {
   font-family: 'Permanent Marker', cursive;
-  padding-top: 1.2rem;
+  padding-left: 40px;
+  padding-top: 20px;
 }
 
 .body-text {
@@ -38,19 +42,6 @@ a.nav-link, #footer a {
 
 .body-text h3 {
   font-size: 1.67rem;
-}
-
-.card-header {
-  color: #676A6C;
-  font-family: 'Permanent Marker', cursive;
-  font-size: 1.4rem;
-  padding: 0.8rem 1.2rem;
-}
-
-.card-header svg {
-  height: 1em;
-  margin-top: -4px;
-  width: 1em;
 }
 
 .headshot {
@@ -88,29 +79,23 @@ a.nav-link, #footer a {
   #phrases div.h1 { font-size: 150% !important; }
 }
 
-@media (max-width: 500px) {
-  #phrases div.h1 { font-size: 175% !important; }
-  .lead { font-size: 15px; width: 160px; }
+@media (max-width: 768px) {
+  .masthead { background-position: -60px -50px; background-size: 125% auto; min-height: calc(100vw * 0.4); }
 }
 
-@media (max-width: 768px) {
-  .masthead { background-size: 150% auto; min-height: calc(100vw * 0.5); }
-  .body-text h1 { font-size: 1.85rem; }
-  .body-text h2 { font-size: 1.67rem; }
-  .body-text h3 { font-size: 1.4rem; }
-  .body-text p { font-size: 0.85rem; }
+@media (max-width: 800px) {
   #footer { font-size: 75%; }
   #footer div.col-sm { padding-top: 1rem !important; }
   #ccg-logo { height: 80px; margin:-20px 5px; }
 }
 
-@media (min-width: 768px) {
-  #phrases { padding-top: 3rem; }
-}
-
-@media (min-width: 1024px) {
-  .masthead { min-height: calc(100vw * 0.33); }
+@media (min-width: 600px) {
   #footer div.col-sm { padding-top: 1.5rem !important; }
   .footer-middle { text-align: center; }
   .footer-right { text-align: right; }
+}
+
+@media (max-width: 1024px) {
+  #phrases div.h1 { font-size: 175% !important; }
+  .lead { font-size: 15px !important; }
 }
