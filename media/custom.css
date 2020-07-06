@@ -1,5 +1,13 @@
-a.nav-link, #footer a {
+a {
   color: #C6CBD0;
+}
+
+a:hover {
+  color: #E1E2E3;
+}
+
+.body-text a, #footer a {
+  font-weight: bold;
 }
 
 .masthead {
@@ -27,21 +35,9 @@ a.nav-link, #footer a {
   color: #E1E2E3;
 }
 
-.body-text h1, h2, h3 {
-  font-family: 'Permanent Marker', cursive;
-  text-align: center;
-}
-
-.body-text h1 {
-  font-size: 2rem;
-}
-
-.body-text h2 {
-  font-size: 1.85rem;
-}
-
-.body-text h3 {
-  font-size: 1.67rem;
+.body-text .heading {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: larger;
 }
 
 .headshot {
@@ -97,7 +93,12 @@ a.nav-link, #footer a {
 }
 
 @media (min-width: 600px) {
+  .body-text .heading { text-align: right !important; }
   #footer div.col-sm { padding-top: 1.5rem !important; }
   .footer-middle { text-align: center; }
   .footer-right { text-align: right; }
+}
+
+@media (min-width: 800px) {
+  .body-text .heading { font-size: x-large !important; }
 }
