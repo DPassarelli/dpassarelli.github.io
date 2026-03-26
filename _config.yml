@@ -1,0 +1,21 @@
+---
+title: David John Passarelli
+email: dpassarelli@camelotcg.com
+description: >-
+  Helping software teams improve quality and increase security | Multi-industry experience | PMI-ACP, CSSLP, CCSP
+
+baseurl: ""
+url: "https://dpassarelli.github.io"
+
+github_username: dpassarelli
+linkedin_username: davidpassarelli
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+
+collections:
+  case_studies:
+    output: true
+    permalink: /case-studies/:title/
