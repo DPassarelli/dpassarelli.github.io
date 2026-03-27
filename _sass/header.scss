@@ -1,0 +1,48 @@
+.site-header {
+  background: #213142;
+  background: linear-gradient(to bottom, #586471, #213142);
+  border-bottom: 1px solid #1a2735;
+}
+
+.header-content {
+  padding: 40px 0 30px 0;
+}
+
+.site-title a {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  text-shadow: #213142 0px 0px 10px;
+  text-decoration: none;
+}
+
+.site-title a:hover {
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.site-tagline {
+  color: #E1E2E3;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.site-nav {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  color: #8F98A0;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.site-nav a:hover {
+  color: #F4F4F4;
+}

@@ -1,0 +1,25 @@
+.site-footer {
+  background: #213142;
+}
+
+.footer-content {
+  padding: 20px 0;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #E1E2E3;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.copyright {
+  color: #8F98A0;
+  font-size: 13px;
+}

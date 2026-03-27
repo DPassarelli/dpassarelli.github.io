@@ -1,0 +1,24 @@
+.site-main {
+  flex: 1;
+  background: #F4F4F4;
+  border-bottom: 1px solid #1a2735;
+}
+
+.main-content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  height: 1px;
+  background: #DD9847;
+  margin: 30px 0;
+}
+
+/* H2 underline — replaces Slate's background-image approach */
+h2 {
+  background: none;
+  border-bottom: 1px dotted #586471;
+}

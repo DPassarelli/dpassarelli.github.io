@@ -1,0 +1,52 @@
+/* Full-height flex column so footer sticks to the bottom */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.site-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Shared responsive container — applied to each section's inner content */
+.header-content,
+.main-content,
+.footer-content {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .header-content,
+  .main-content,
+  .footer-content {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header-content,
+  .main-content,
+  .footer-content {
+    width: 70%;
+  }
+}
+
+/* Small screen adjustments */
+@media screen and (max-width: 480px) {
+  .site-title a {
+    font-size: 28px;
+  }
+
+  .site-tagline {
+    font-size: 15px;
+  }
+
+  .header-content {
+    padding: 25px 0 20px 0;
+  }
+}
