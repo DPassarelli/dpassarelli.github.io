@@ -48,9 +48,9 @@ html, body {
 
 /* Header */
 .site-header {
-  background: #212121;
-  background: linear-gradient(to bottom, #373737, #212121);
-  border-bottom: 1px solid #111;
+  background: #213142;
+  background: linear-gradient(to bottom, #586471, #213142);
+  border-bottom: 1px solid #1a2735;
 }
 
 .header-content {
@@ -61,7 +61,7 @@ html, body {
   color: #fff;
   font-size: 42px;
   font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
+  text-shadow: #213142 0px 0px 10px;
   text-decoration: none;
 }
 
@@ -71,7 +71,7 @@ html, body {
 }
 
 .site-tagline {
-  color: #ccc;
+  color: #E1E2E3;
   font-size: 18px;
   font-weight: 300;
   margin-top: 5px;
@@ -85,7 +85,7 @@ html, body {
 }
 
 .site-nav a {
-  color: #aaa;
+  color: #8F98A0;
   text-decoration: none;
   font-size: 14px;
   text-transform: uppercase;
@@ -93,14 +93,14 @@ html, body {
 }
 
 .site-nav a:hover {
-  color: #fff;
+  color: #F4F4F4;
 }
 
 /* Main content — takes up remaining space to push footer down */
 .site-main {
   flex: 1;
-  background: #f2f2f2;
-  border-bottom: 1px solid #111;
+  background: #F4F4F4;
+  border-bottom: 1px solid #1a2735;
 }
 
 .main-content {
@@ -110,7 +110,7 @@ html, body {
 
 /* Footer */
 .site-footer {
-  background: #212121;
+  background: #213142;
 }
 
 .footer-content {
@@ -125,14 +125,22 @@ html, body {
 }
 
 .footer-links a {
-  color: #f2f2f2;
+  color: #E1E2E3;
   text-decoration: underline;
   font-size: 14px;
 }
 
 .copyright {
-  color: #999;
+  color: #8F98A0;
   font-size: 13px;
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  height: 1px;
+  background: #DD9847;
+  margin: 30px 0;
 }
 
 /* Small screen adjustments */
