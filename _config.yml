@@ -10,7 +10,7 @@ url: "https://dpassarelli.github.io"
 github_username: dpassarelli
 linkedin_username: davidpassarelli
 
-theme: minima
+theme: jekyll-theme-slate
 
 plugins:
   - jekyll-feed

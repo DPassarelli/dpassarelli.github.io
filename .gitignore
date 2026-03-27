@@ -1,7 +1,8 @@
 _site
+private
+vendor
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-vendor
 .DS_Store
 serve.sh
