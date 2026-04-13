@@ -2,6 +2,30 @@
 layout: default
 ---
 
-<div class="home-content">
-  {{ content }}
-</div>
+<section class="hero">
+  <div class="hero-portrait">
+    <img src="{{ page.portrait | relative_url }}" alt="{{ site.title }}">
+  </div>
+  <div class="hero-text">
+    <h1 class="hero-name">{{ site.title }}</h1>
+    <p class="hero-roles">{{ page.roles | join: ' · ' }}</p>
+
+    {%- for paragraph in page.bio -%}
+      <p class="hero-bio">{{ paragraph }}</p>
+    {%- endfor -%}
+
+    <div class="hero-links">
+      {%- if site.github_username -%}
+        <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+      {%- endif -%}
+      {%- if site.linkedin_username -%}
+        <a href="https://linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>
+      {%- endif -%}
+      {%- if site.email -%}
+        <a href="mailto:{{ site.email }}">Email</a>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+{{ content }}

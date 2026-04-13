@@ -1,17 +1,22 @@
 ---
 layout: home
 title: Home
+portrait: /assets/images/2026_Spring_Portrait.jpeg
+roles:
+  - Agile Coach
+  - Educator/Trainer
+  - Secure SDLC/Cloud Expert
+  - DevSecOps Engineer
+bio:
+  - >-
+    With a diverse background in both training and software engineering,
+    what I love most is helping teams build better software while actually
+    enjoying the process.
+  - >-
+    I specialize in modernizing legacy systems, embedding security into
+    CI/CD pipelines, and teaching teams to build better software from
+    the inside out.
 ---
-
-Agile Coach | Educator/Trainer | Secure SDLC/Cloud Expert | DevSecOps Engineer
-
-With a diverse background in both training and software engineering, what I love most is helping teams build better software while actually enjoying the process 👨🏻‍💻 💡
-
-As a self-taught programmer with an aptitude for learning, I've picked up many valuable ideas and practices along the way. I've built full-stack web applications from scratch, modernized legacy systems, and deployed DevSecOps pipelines. My technical toolkit currently centers around JavaScript (Node.js/Deno, Vue, Express, Vite), though I've worked in everything from FORTRAN to VB to Java to C# over the years. I'm a strong believer in test-first development, security by design, continuous feedback loops, and Lean software development practices. I believe the best way to learn is by doing — and the best way to coach is by working alongside the people you're coaching.
-
-I've worked across financial services, healthcare, insurance, food and beverage, and consumer technology companies. I specialize in modernizing legacy systems, embedding security into CI/CD pipelines, and teaching teams to build better software from the inside out.
-
-If you're looking for someone who can bridge the gap between technical excellence and business value—while keeping everyone engaged and motivated along the way—let's connect!
 
 ## Certifications
 
