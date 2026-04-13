@@ -6,3 +6,4 @@ vendor
 .jekyll-metadata
 .DS_Store
 serve.sh
+directory-tree.txt
