@@ -1,7 +1,7 @@
 .site-main {
   flex: 1;
   background: $color-pearl;
-  border-bottom: $border-solid;
+  border-bottom: $border-main-content;
 }
 
 .main-content {
@@ -20,5 +20,5 @@ hr {
 /* H2 underline — replaces Slate's background-image approach */
 h2 {
   background: none;
-  border-bottom: $border-dotted;
+  border-bottom: $border-section-heading;
 }

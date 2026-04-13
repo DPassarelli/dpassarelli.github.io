@@ -8,25 +8,25 @@
 *******************************************************************************/
 
 // Color Palette
-$color-gold:        #F7CE55;
-$color-silver:      #E1E2E3;
-$color-dark-gray:   #676A6C;
-$color-orange:      #DD9847;
-$color-dark-teal:   #213142;
-$color-dark-plum:   #301320;
-$color-dark-green:  #254041;
-$color-dolphin:     #586471;
-$color-med-gray:    #8F98A0;
-$color-pearl:       #F4F4F4;
-$color-light-gray:  #C7CBD0;
+$color-gold:                 #F7CE55;
+$color-silver:               #E1E2E3;
+$color-dark-gray:            #676A6C;
+$color-orange:               #DD9847;
+$color-dark-teal:            #213142;
+$color-dark-plum:            #301320;
+$color-dark-green:           #254041;
+$color-dolphin:              #586471;
+$color-med-gray:             #8F98A0;
+$color-pearl:                #F4F4F4;
+$color-light-gray:           #C7CBD0;
 
 
 // Derived shades
-$color-dark-teal-deep: #1a2735;
+$color-dark-teal-deep:       #1a2735;
 
 // Typography
-$font-heading: 'Roboto', sans-serif;
-$font-body:     Georgia, 'Times New Roman', serif;
+$font-heading:               'Roboto', sans-serif;
+$font-body:                  Georgia, 'Times New Roman', serif;
 
 $font-size-site-title:       42px;
 $font-size-site-title-sm:    28px;
@@ -41,9 +41,9 @@ $font-size-hero-bio:         15px;
 $font-size-hero-link:        13px;
 
 // Borders
-$border-solid:    1px solid $color-dark-teal-deep;
-$border-dotted:   1px dotted $color-dolphin;
-$border-portrait: 3px solid $color-light-gray;
+$border-main-content:        1px solid $color-dark-teal-deep;
+$border-section-heading:     1px dotted $color-dolphin;
+$border-portrait:            3px solid $color-light-gray;
 
 /*******************************************************************************
   Custom overrides — organized as partials in _sass/
