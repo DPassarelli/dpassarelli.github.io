@@ -1,0 +1,22 @@
+// =============================================================================
+// Typography — font families and base text styles
+// =============================================================================
+
+body {
+  font-family: $font-body;
+}
+
+h1, h2, h3, h4, h5, h6,
+.site-title a,
+.hero-name {
+  font-family: $font-heading;
+}
+
+.site-tagline,
+.site-nav a,
+.hero-roles,
+.hero-links a,
+.footer-links a,
+.copyright {
+  font-family: $font-heading;
+}

@@ -1,7 +1,7 @@
 .site-header {
-  background: #213142;
-  background: linear-gradient(to bottom, #586471, #213142);
-  border-bottom: 1px solid #1a2735;
+  background: $color-dark-teal;
+  background: linear-gradient(to bottom, $color-dolphin, $color-dark-teal);
+  border-bottom: $border-solid;
 }
 
 .header-content {
@@ -10,9 +10,9 @@
 
 .site-title a {
   color: #fff;
-  font-size: 42px;
+  font-size: $font-size-site-title;
   font-weight: 700;
-  text-shadow: #213142 0px 0px 10px;
+  text-shadow: $color-dark-teal 0px 0px 10px;
   text-decoration: none;
 }
 
@@ -22,8 +22,8 @@
 }
 
 .site-tagline {
-  color: #E1E2E3;
-  font-size: 18px;
+  color: $color-silver;
+  font-size: $font-size-tagline;
   font-weight: 300;
   margin-top: 5px;
 }
@@ -36,13 +36,13 @@
 }
 
 .site-nav a {
-  color: #8F98A0;
+  color: $color-med-gray;
   text-decoration: none;
-  font-size: 14px;
+  font-size: $font-size-nav;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .site-nav a:hover {
-  color: #F4F4F4;
+  color: $color-pearl;
 }

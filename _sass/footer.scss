@@ -1,5 +1,5 @@
 .site-footer {
-  background: #213142;
+  background: $color-dark-teal;
 }
 
 .footer-content {
@@ -14,12 +14,12 @@
 }
 
 .footer-links a {
-  color: #E1E2E3;
+  color: $color-silver;
   text-decoration: underline;
-  font-size: 14px;
+  font-size: $font-size-footer-link;
 }
 
 .copyright {
-  color: #8F98A0;
-  font-size: 13px;
+  color: $color-med-gray;
+  font-size: $font-size-copyright;
 }
